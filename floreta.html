@@ -8,7 +8,7 @@
       .petal{
         height:100px;
         width:100px;
-        background-color: darkgreen;
+        background-color: purple;
         border-radius:0 100px;
         position:relative;
         transform-origin: right bottom;
@@ -23,7 +23,6 @@
           top:0px;
           left:100px;
           transform: rotate(120deg);
-          background-color:red;
         }
         .tercer{
           top:-100px;
@@ -34,19 +33,16 @@
           top:-200px;
           left:100px;
           transform: rotate(240deg);
-          background-color:blue;
         }
         .cinque{
           top:-300px;
           left:100px;
           transform: rotate(300deg);
-          background-color:green;
         }
         .sise{
           top:-400px;
           left:100px;
           transform: rotate(360deg);
-          background-color:yellow;
         }
 
         .cor{
@@ -54,15 +50,33 @@
           width:50px;
           background:orange;
           border-radius:25px;
-          top:-419px;
-          left:170px;
+          top:-425px;
+          left:175px;
           position:relative;
-
         }
 
+        .flor{
+          animation-name: rotacio;
+          animation-duration: 1.5s;
+          animation-timing-function: linear;
+          animation-iteration-count: infinite;
+          animation-delay: 1s;
+          transform-origin: 200px 200px;
+        }
+
+        @keyframes rotacio{
+          0%{
+            transform:rotate(0deg);
+          }
+
+          100%{
+            transform:rotate(360deg);
+          }
+        }
     </style>
   </head>
   <body>
+    <div class="flor">
     <div class="petal primer"></div>
     <div class="petal segon"></div>
     <div class="petal tercer"></div>
@@ -70,5 +84,6 @@
     <div class="petal cinque"></div>
     <div class="petal sise"></div>
     <div class="cor"></div>
+    </div>
   </body>
 </html>
