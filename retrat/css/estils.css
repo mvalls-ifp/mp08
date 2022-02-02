@@ -229,6 +229,7 @@ border-radius:80px 70px 0 0;
   position: relative;
   top:-3px;
   transition: 0.1s;
+  transition-timing-function: ease-in-out;
 }
 
 .cella2{
@@ -241,6 +242,7 @@ border-radius:80px 70px 0 0;
   top:20px;
 }
 .cella2:hover{
+ transition-timing-function: ease-in-out;
  position: relative;
  top:-3px;
  transition: 0.1s;
