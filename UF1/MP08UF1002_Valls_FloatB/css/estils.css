@@ -1,0 +1,38 @@
+body{
+
+}
+
+div{
+  margin:13.3px;
+  overflow:visible;
+}
+
+.cap,.peu{
+  background-color: Green;
+  width: 1173.4px;
+  clear: both;
+  text-align: center;
+  height: 200px;
+  font-family: Helvetica, Arial,sans-serif;
+}
+
+.esquerra, .dreta{
+  background-color: green;
+width: 200px;
+float: left;
+font-family: Helvetica, Arial,sans-serif;
+
+}
+
+.centre{
+  background-color: Grey;
+width: 720px;
+float: left;
+font-family: Helvetica, Arial,sans-serif;
+}
+
+.contenidor{
+  background-color: grey;
+  width: 1200px;
+  margin: 0 auto;
+}

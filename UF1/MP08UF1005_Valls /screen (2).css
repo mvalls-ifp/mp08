@@ -1,0 +1,154 @@
+body{
+  background-color: #222;
+}
+
+
+h2{
+  color: white;
+  font-size:100px;
+  font-family: Helvetica;
+  margin-left: 500px;
+
+}
+
+h3{
+  font-size:25px;
+  font-family: Helvetica;
+  margin-left: 500px;
+}
+
+h4{
+  font-size:20px;
+  font-family: Helvetica;
+  margin-left: 500px;
+  color: white;
+}
+h6{
+  font-size:15px;
+  font-family: Helvetica;
+  font-style: bold;
+  margin: 10px 50px 0 10px;
+  text-align: center;
+}
+
+p{
+  font-family: Helvetica;
+  margin: 30px 10px 0 10px;
+}
+img{
+  margin: 30px 100px 0 10px;
+  box-shadow: 20px ;
+}
+
+
+h5{
+  width: 150px;
+  height:150px;
+  background-image: url(../img/images.jpeg);
+  background-size:cover;
+  border-radius: 25px;
+  margin-left: 500px;
+}
+
+article:last-child h5{
+    background-image: url(../img/anchor.png);
+    margin-left: 500px;
+}
+
+h6{
+  text-align: center;
+}
+
+ul{float: left;
+width:2000px;
+height: 50px;
+margin-left: 500px;
+}
+li{display: inline-block;
+
+}
+
+.win{
+  width: 30px;
+  height:30px;
+  background-image: url(../img/ventanas.png);
+  background-size:100% 100%;
+  margin: 10px;
+}
+.mac{
+  width: 30px;
+  height:30px;
+  background-image: url(../img/apple.png);
+  background-size:100% 100%;
+
+  margin: 10px;
+}
+.and{
+  width: 30px;
+  height:30px;
+  background-image: url(../img/android.png);
+  background-size:100% 100%;
+
+  margin: 10px;
+}
+
+.web{
+  width: 30px;
+  height:30px;
+  background-image: url(../img/cloud.png);
+  background-size:100% 100%;
+  margin: 10px;
+}
+
+div{
+  width: 400px;
+  height: 600px;
+  background-color: white;
+  margin: 10px;
+  float: left;
+  border-radius: 10px;
+}
+
+.companyia{
+  clear: both;
+  margin-left: 500px;
+}
+
+
+ img{
+   width: 250px;
+   height: 500px;
+   border-radius: 25px;
+   margin-left:75px;
+ }
+
+article{
+  float:left;
+}
+
+.aventatges{
+  float: none;
+  height:auto;
+  width: auto;
+}
+
+.funcionalitats{
+    margin-left: 500px;
+}
+
+
+.inconvenients{
+  float: none;
+  height:auto;
+  width: auto;
+}
+
+.funcionalitats, .captures, .financiament, .companyia, .alternatives, .valoracio{
+    padding-top: 40px 10px 10px 10px;
+    float: left
+  }
+
+.article{
+  float: left;
+  background: cyan;
+}

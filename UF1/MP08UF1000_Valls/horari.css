@@ -1,0 +1,17 @@
+table {background-color:Red;/*Es per cambiar la taula */
+border: solid 1px;/*Marge de la caixa */
+width: 600px;/*amplada de la caixa*/
+font-family: "Avenir",Arial, sans-serif;
+font-size: 18px;
+margin:0 auto;
+box-shadow: 5px 5px 5px;
+
+}
+
+
+th {background-color: pink
+}
+
+td {background-color: white;
+height:40;
+}

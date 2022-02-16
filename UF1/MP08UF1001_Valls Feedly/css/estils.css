@@ -1,0 +1,146 @@
+body{
+  background-color: WHITE;
+  margin: 0;
+  font-family: Helvetica, Arial,sans-serif;
+  color: #666;
+  font-size: 13px;
+}
+h1{background-color:;
+margin:0;
+width: 380px;
+padding: 30px;}
+
+p{background-color: ;
+margin: 0;
+font-size: 18px;
+line-height: 22px;
+width: 390px;
+/*padding: 30px*/
+/* padding-top: 30px;
+padding-right: 30px;
+padding-bottom: 30px;
+padding-left: 30px;
+*/
+padding: 0 30px 12px 30px;
+padding: 0 30px;
+text-indent: 18px;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  vertical-align: top;
+  text-align: right;
+}
+
+li:link{
+  color: black;
+}
+li:hover{
+  background-color: #6C3;
+}
+a:visited{
+  color: black;
+}
+
+
+
+li{
+  list-style-type: none;
+  display: inline-block;
+  margin: 0;
+  padding: 7px;
+  /*border: 1px solid black;
+  border-radius: 10px 10px 0 0 ;*/
+  line-height: 18px;
+}
+/*
+a:link{
+  color: green;
+}
+a:visited{
+  color: black;
+}
+a:hover{
+  color:green;
+}
+*/
+
+div{
+  background-repeat: no-repeat;
+  background-position: 450px 0px
+  }
+
+#descarrega img{
+  padding: 30px;}
+
+
+.blanca{
+  background-color: color:#FFFFFF;
+  height:px;}
+
+.verda{
+  background-color: #6C3;
+  height:550px;
+}
+
+.fosca{
+  background-color: #333
+}
+
+.clara{
+  background-color: #EEECEE
+}
+
+#menu{ height:40px ;
+  padding: 0 0 0 5px ;
+}
+
+#menu img{background-color: }
+
+#tot{ height: 641px;
+  background-image: url(../img/allinone.jpg);
+}
+
+#coneix{height: 550px;
+  background-image: url(../img/img-hero-full-list.png);
+}
+
+#util{height: 500px;
+  background-image: url(../img/curator-short.png);
+}
+#util{height: 500px;
+  background-image: url(../img/curator-short.png);
+}
+
+#descarrega{
+  height: 200px;
+  text-align: center;
+  padding: 30px;
+}
+#rapid{ height: 550px;
+  background-image: url(../img/img-hero-full-list.png);
+}
+#facil{height: 550px;
+  background-image: url(../img/mobile-share.png);
+  background-position: 450px 15px;
+}
+#arreu{ height: 643px;
+  background-image: url(../img/anywhere.png);
+}
+
+.torna{
+ height: 100px;
+ width: 100px;
+ background-color: black;
+ position: fixed;
+ bottom:100px;
+ right: 100px;
+ border-radius: 50px;
+ font-size: 60px;
+ text-align: center;
+line-height: 120px;
+color:greenyellow;
+box-shadow: green 0px 0px 30px;
+}
