@@ -1,106 +1,194 @@
 body{
   background: red;
-  font-size: 1.5rem;
-  font-family: tahoma;
+  font-size: 1.75rem;
+  font-family: Helvetica;
 }
 @media screen and (min-width:393px) {
   body{
-    background: olive;
+    background-image: url(https://lh3.googleusercontent.com/GLLp_ic3MEkfCewoqWnvIpPVNuPhvRya2shEWlAAeJmD3XPaQOxDZ7qeHV92IAICXzzk62RitoDCWsNkF8JzHa8gQA7EUJ0CTUeZdQ=w600);
     color: white;
+
   }
 
-  h1{
-    clear: both;
-  }
+    ul{
+      width:960px;
+      margin: 0 auto;
+    }
 
-  p:after{
-    width:6.25rem;
-    height:6.25rem;
-    background: url(../img/ico0032.png);
-    content:"";
-    display:block;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-   nav ul li{
-     display: block;
-     background: red;
-     margin:0.1rem 0;
-     float:left;
-     padding:0.5rem 0;
-     width: 6rem;
-   }
+    li{
+      font-size: 30px;
+      position: relative;
+      top:45px;
+      list-style: none;
+    }
 
-   nav ul li ul{
-     display: none;
-     padding: 0;
-     margin:0;
-   }
+    p{
+      font-size: 100px;
+      font-family: American Typewriter;
+      color: white;
+      margin: 0 auto;
+      width:960px;
+    }
+    .UF1{
+      color: white;
+      position: relative;
+      float: left;
+      font-size: 50px;
+      font-family: American Typewriter;
+    }
 
-   nav ul li:hover> ul{
-     display: block;
-     position: relative;
-   }
+    .UF4{
+      color: white;
+      margin-top: 120px;
+      position: relative;
+      float: left;
+      font-size: 50px;
+      font-family: American Typewriter;
+      clear: both;
+      list-style: none;
+    }
 
-   nav ul:hover li ul li{
-    background: yellow;
-     float: none;
-   }
-}
+    h1{
+    width: auto;
+    font-size: 25px;
+    font-family: American Typewriter;
+    text-align: center;
+    color: white;
+    margin-top: -10px;
+    }
+
+    img{
+      width: 150px;
+      height: 150px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      margin: 20px;
+      }
 
 
-@media screen and (max-width:719px) {
-   body{
-    background: pink;
- }
- p:after{
-   background: url(../img/ico1000.jpg);
-   content:"";
-   display:block;
-   width:6.25rem;
-   height:6.25rem;
-   background-repeat: no-repeat;
-   background-size: cover;
- }
- nav ul li{
-   display: block;
-   background: green;
-   width: 8rem;
-   margin:0.1rem;
-   padding:0.5rem;
-   float:none;
- }
 
- nav ul li{
-   display: block;
-   background: red;
-   margin:0.1rem 0;
-   padding:0.5rem 0;
-   width: 6rem;
-   position: relative;
-   float:none;
- }
+    .contenidor1{
+    float: left;
+    }
 
- nav ul li ul{
-   position: relative;
-   display: none;
-   padding: 0;
-   margin:0;
-   top: 0;
-   left: 0;
+    .contenidor2{
+    float: left;
+    }
 
- }
+    .contenidor3{
+    float: left;
+    }
 
- nav ul li:hover> ul{
-   display: block;
-   position: absolute;
-   top:0;
-   right:0;
-   left:6rem;
- }
+    .contenidor4{
+    float: left;
+    }
 
- nav ul:hover li ul li{
-  background: yellow;
-  float: none: ;
- }
-}
+    .contenidor5{
+    float: left;
+    }
+
+    .contenidor6{
+    float: left;
+    }
+
+    .contenidor7{
+    float: left;
+    }
+
+    .contenidor8{
+    float: left;
+    }
+
+    .contenidor9{
+    float: left;
+    }
+
+    .contenidor10{
+    float: left;
+    }
+
+    .contenidor11{
+    float: left;
+    }
+
+    .contenidor12{
+    float: left;
+    }
+
+    .contenidor1:hover{
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-color:#E74C3C ;
+    }
+
+    .contenidor2:hover{
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-color: #9B59B6 ;
+    }
+
+    .contenidor3:hover{
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-color:#884EA0 ;
+    }
+
+    .contenidor4:hover{
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-color:#2980B9 ;
+    }
+
+    .contenidor5:hover{
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-color:#3498DB ;
+    }
+
+    .contenidor6:hover{
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-color:#1ABC9C  ;
+    }
+
+    .contenidor7:hover{
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-color:#16A085 ;
+    }
+
+    .contenidor8:hover{
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-color:#27AE60 ;
+    }
+
+    .contenidor9:hover{
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-color:#2ECC71  ;
+    }
+
+    .contenidor10:hover{
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-color:#F1C40F ;
+    }
+
+    .contenidor11:hover{
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-color:#F39C12 ;
+    }
+
+    .contenidor12:hover{
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-color:#E67E22 ;
+    }
+
+
+
+
+
+-
