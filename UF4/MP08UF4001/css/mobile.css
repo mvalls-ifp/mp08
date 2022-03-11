@@ -12,6 +12,54 @@ body{
   h1{
     clear: both;
   }
+ #alterna{
+   visibility: hidden;
+ }
+  b{
+    margin-top:0.3rem;
+    display:block;
+    background:black;
+    width:2rem;
+    height:0.3rem;
+  }
+  #alternador{
+  width:2rem;
+  height:2rem;
+  background:transparent;
+  position:absolute;
+  top:1rem;
+  left:1rem;
+  border-radius:0.5rem;
+}
+
+#alternador label{
+  width:2rem;
+  height:2rem;
+  position:absolute;
+  border-radius:0.5rem;
+  top:0;
+  left:0;
+  transition:all .5s ease;
+  cursor:pointer;
+  opacity:0;
+}
+.desplega{
+  position:absolute;
+  opacity:1;
+  top: 0rem;
+  left:-13rem;
+  transition:all .5s ease;
+}
+#alternador input[type=checkbox]:checked+label~.desplega{
+  opacity:1;
+  left:0;
+}
+#alternador input[type=checkbox]:checked+label{
+  opacity:1;
+  left:0;
+}
+
+
 
   p:after{
     width:6.25rem;
@@ -91,7 +139,7 @@ body{
 
  }
 
- nav ul li:hover> ul{
+ nav ul li:hover ul{
    display: block;
    position: absolute;
    top:0;
