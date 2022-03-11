@@ -2,17 +2,21 @@ body{
   background: red;
   font-size: 1.75rem;
   font-family: Helvetica;
+  cursor: url(../img/unnamed.png), auto;
 }
 @media screen and (min-width:393px) {
+
   body{
-    background-image: url(https://lh3.googleusercontent.com/GLLp_ic3MEkfCewoqWnvIpPVNuPhvRya2shEWlAAeJmD3XPaQOxDZ7qeHV92IAICXzzk62RitoDCWsNkF8JzHa8gQA7EUJ0CTUeZdQ=w600);
+    background-image: url(https://lh3.googleusercontent.com/rACCtXYrBfrnUQtmRWX3Etxfb8JO2mrnOgKe5wUaV_bKDocqC1ACOkc9R7kiC5uoMnZPZI-HYnBzaPpunhZaTrPCm87yPMfPuGg2qw=w600);
     color: white;
+    cursor: url(../img/unnamed.png), auto;
 
   }
 
     ul{
       width:960px;
       margin: 0 auto;
+      cursor: url(../img/unnamed.png), auto;
     }
 
     li{
@@ -20,6 +24,7 @@ body{
       position: relative;
       top:45px;
       list-style: none;
+      cursor: url(../img/unnamed.png), auto;
     }
 
     p{
@@ -28,6 +33,7 @@ body{
       color: white;
       margin: 0 auto;
       width:960px;
+      cursor: url(../img/unnamed.png), auto;
     }
     .UF1{
       color: white;
@@ -55,6 +61,7 @@ body{
     text-align: center;
     color: white;
     margin-top: -10px;
+    cursor: url(../img/unnamed.png), auto;
     }
 
     img{
@@ -63,6 +70,7 @@ body{
       background-size: cover;
       background-repeat: no-repeat;
       margin: 20px;
+      cursor: url(../img/unnamed.png), auto;
       }
 
 
