@@ -29,6 +29,8 @@ body{
   float: left;
   top:15px;
   left: 1000px;
+  padding-left: 5px;
+  list-style: none;
   }
   h2{
     font-size: 22px;
@@ -66,6 +68,8 @@ body{
     float: left;
     top:-30px;
     left: 100px;
+    padding-left: 5px;
+    list-style: none;
 }
 
   .interessants{
@@ -119,9 +123,8 @@ body{
 
   .imgbarra{
     position: absolute;
-    margin-left: 20px;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    top:10px;
+    left:10px;
   }
 
 
