@@ -1,0 +1,154 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@media screen and (min-width:393px){
+  body{
+  margin: 0;
+  padding:0;
+  background-image: linear-gradient(to right, pink , beige);
+  background-size: cover;
+  background-position: center;
+  }
+
+  p{
+    width:960px;
+    position: relative;
+    text-align: center;
+    font-size: 4em;
+    position:
+  }
+
+.contenidor{
+  height:589px;
+  width:960px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.contenidor ul{
+padding: 0;
+display: flex;
+width:900%;
+animation: canvi 20s infinite;
+}
+.contenidor .anim{
+list-style: none;
+width:200%;
+}
+
+.contenidor img{
+width:100
+}
+
+@keyframes canvi{
+
+  0% {margin-left: 0;}
+  11%{margin-left: 0;}
+
+  12%{margin-left: -100%;}
+  22%{margin-left: -100%;}
+
+  23%{margin-left: -200%;}
+  33%{margin-left: -200%;}
+
+  34%{margin-left: -300%;}
+  44%{margin-left: -300%;}
+
+  45%{margin-left: -400%;}
+  55%{margin-left: -400%;}
+
+  56%{margin-left: -500%;}
+  66%{margin-left: -500%;}
+
+  67%{margin-left: -600%;}
+  77%{margin-left: -600%;}
+
+  78%{margin-left: -700%;}
+  88%{margin-left: -700%;}
+
+  89%{margin-left: -800%;}
+  99%{margin-left: -800%;}
+
+
+}
+
+
+  .title{
+      width:960px;
+      height: 0;
+      font-family: helvetica;
+      margin: 0 auto;
+      position: relative;
+  }
+
+  img{
+  background-size: cover;
+  }
+
+
+ #contenidor ul{
+
+ }
+
+
+
+  .img2{
+    height:589px;
+    width:960px;
+    background-color: transparent;
+    margin: 0 auto;
+    position:relative;
+
+  }
+
+  .cars{
+    height: 200px;
+    width:250px;
+    background-color: white;
+  }
+
+  .cars1{
+    position: relative;
+    top: 589px;
+    width:960px;
+    margin: 0 auto;
+    margin-top: -580px;
+
+  }
+
+  li{
+    position: relative;
+    display: block;
+    list-style: none;
+    margin: 20px;
+    float: left;
+    opacity:.50;
+  }
+
+  h1{
+    font-size: 1em;
+    color:grey;
+    clear:both;
+    text-align: left;
+    margin-top: auto;
+    margin-left: 5px;
+  }
+  .logo1{
+    width:250px;
+    height:1500px;
+  position: absolute;
+
+}
+
+
+
+ li:hover{
+  opacity: 100;
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+   transition: 2s ease-in-out;
+  }
+
+
+
+}
